@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my_portfolio
+    name: my-portfolio
     env: static
-    staticPublishPath: ./src
-    buildCommand: ""
+    staticPublishPath: .
+    buildCommand: null # No build command needed for raw HTML/CSS/JS
